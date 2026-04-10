@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "App-segundo-app-BancoDeDados/1.0.0": {
+        "runtime": {
+          "App-segundo-app-BancoDeDados.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App-segundo-app-BancoDeDados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
