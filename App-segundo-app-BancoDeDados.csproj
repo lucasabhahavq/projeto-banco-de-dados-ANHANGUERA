@@ -7,4 +7,8 @@
     <RootNamespace>App_segundo_app_BancoDeDados</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.6.0" />
+  </ItemGroup>
+
 </Project>

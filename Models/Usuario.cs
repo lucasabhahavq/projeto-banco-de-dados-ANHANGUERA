@@ -4,6 +4,9 @@ namespace App_segundo_app_BancoDeDados.Models
 {
     public class Usuario
     {
+        internal object cargo;
+        internal object dataNasc;
+
         [Display(Name = "Código")]
         public int? IdUsu { get; set; }
 
