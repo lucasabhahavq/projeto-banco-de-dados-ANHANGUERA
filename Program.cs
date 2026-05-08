@@ -1,7 +1,13 @@
+using App_segundo_app_BancoDeDados.Repositorio;
+using App_segundo_app_BancoDeDados.Repositorio.contrato;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
 var app = builder.Build();
 

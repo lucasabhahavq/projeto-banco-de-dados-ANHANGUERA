@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App-segundo-app-BancoDeDados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ecd24943f0ddf6527551f374a564742d80a4102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c27f8c1aa2ecc3f1239afdb534bab8f02c56ee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("App-segundo-app-BancoDeDados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App-segundo-app-BancoDeDados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
