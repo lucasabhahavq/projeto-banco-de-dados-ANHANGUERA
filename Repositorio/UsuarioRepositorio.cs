@@ -1,6 +1,7 @@
 ﻿using App_segundo_app_BancoDeDados.Models;
 using App_segundo_app_BancoDeDados.Repositorio.contrato;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace App_segundo_app_BancoDeDados.Repositorio
 {
@@ -42,8 +43,36 @@ namespace App_segundo_app_BancoDeDados.Repositorio
 
         public IEnumerable<Usuario> ObterTodosUsuarios()
         {
-            throw new NotImplementedException();
+            List<Usuario> UsuarioList = new List<Usuario>();
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("Select * from usuario", conexao);
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                conexao.Clone();
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    UsuarioList.Add(
+                        new Usuario
+                        {
+                            IdUsu = Convert.ToInt32(dr["IdUsu"]),
+                            nomeUsu = (string)dr["nomeUsu"],
+                            Cargo = (string)dr["Cargo"],
+                            DataNasc = Convert.ToDateTime(dr["DataNasc"])
+
+                        });
+                }
+                return UsuarioList;
+            }
         }
+
+
+
 
         public Usuario ObterUsuario(int Id)
         {

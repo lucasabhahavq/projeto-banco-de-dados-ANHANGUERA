@@ -1,4 +1,3 @@
-wwwroot\banco\script_usuario.sql
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -62,6 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\banco\script_usuario.sql
 C:\Users\LucasDeAraujoAndrade\Documents\App-segundo-app-BancoDeDados\App-segundo-app-BancoDeDados\wwwroot\css\site.css
 C:\Users\LucasDeAraujoAndrade\Documents\App-segundo-app-BancoDeDados\App-segundo-app-BancoDeDados\wwwroot\favicon.ico
 C:\Users\LucasDeAraujoAndrade\Documents\App-segundo-app-BancoDeDados\App-segundo-app-BancoDeDados\wwwroot\js\site.js
